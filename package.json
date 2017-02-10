@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "less": "2.7.1"
+  },
+  "scripts": {
+      "lint": "jshint --config .jshintrc --exclude-path .jshintignore .",
+      "style": "lessc ./src/less/cryptpad.less > ./main.css",
+      "template": "cd src && node build.js"
+  }
+}
